@@ -152,16 +152,17 @@ textarea {
     border: 1px solid #fff;
     padding: 50px;
 }
-.question{
-    font-size: 14px;
+.question_txt,
+.answer-main_txt{
+    font-size: 50px;
     color: goldenrod;
     font-style: oblique;
+    text-align: center;
 }
 .answer {
     display: inline-flex;
     padding: 10px;
     justify-content: center;
-    align-items: center;
     border-radius: 5px;
     background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
     color: var(--white, #FFF);
@@ -172,7 +173,19 @@ textarea {
     cursor: pointer;
     transition: 1s;
     width: 100px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+
+
 }
 .answer:hover{
-    width: 105px;
+    color: gold;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background: blue;
+    box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
+    padding: 50px;
+   
 }
