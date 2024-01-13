@@ -161,7 +161,6 @@ textarea {
     font-style: oblique;
     text-align: center;
 }
-
 .answer {
     display: inline-flex;
     padding: 10px;
@@ -179,11 +178,9 @@ textarea {
     width: 100px;
     margin-left: 10px;
 }
-
 .answer:hover {
     color: gold;
 }
-
 section {
     width: 100%;
     height: 100%;
@@ -191,7 +188,6 @@ section {
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     padding: 30px 50px;
 }
-
 .answer_img img {
     width: 800px;
     height: 400px;
