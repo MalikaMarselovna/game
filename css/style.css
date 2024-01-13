@@ -121,7 +121,7 @@ textarea {
     flex-wrap: wrap;
 }
 .main_right{
-    width: 30%;
+    width: 25%;
 }
 .card1{
     width: 100%;
@@ -132,6 +132,8 @@ textarea {
     align-items: center;
     background: blue;
     box-shadow: 3px -3px 50px 17px rgba(34, 60, 80, 0.2) inset;
+    border: 1px solid #fff;
+    padding: 50px;
 }
 .category{
     font-size: 25px;
