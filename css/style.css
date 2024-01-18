@@ -131,12 +131,11 @@ textarea {
 
 .card1 {
     width: 100%;
-    height: calc(100% / 6);
     text-align: center;
     background: blue;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 50px;
+    padding: 35.8px;
 }
 
 .mark,
@@ -151,7 +150,7 @@ textarea {
     text-align: center;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 50px;
+    padding: 35.8px;
 }
 
 .question_txt,
