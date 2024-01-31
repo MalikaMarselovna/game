@@ -135,7 +135,7 @@ textarea {
     background: blue;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 35.8px;
+    padding:45px;
 }
 
 .mark,
@@ -150,7 +150,7 @@ textarea {
     text-align: center;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 35.8px;
+    padding: 45px;
 }
 
 .question_txt,
@@ -175,7 +175,8 @@ textarea {
     cursor: pointer;
     transition: 1s;
     width: 100px;
-    margin-left: 10px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 .answer:hover {
     color: gold;
