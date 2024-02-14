@@ -135,7 +135,10 @@ textarea {
     background: blue;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
 }
 .mark.clicked{
     border: 1px solid blue;
@@ -150,7 +153,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 130px;
+    height: 128px;
     width: calc(100% / 5);
     background: blue;
     text-align: center;
