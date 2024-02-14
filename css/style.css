@@ -150,7 +150,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120px;
+    height: 130px;
     width: calc(100% / 5);
     background: blue;
     text-align: center;
