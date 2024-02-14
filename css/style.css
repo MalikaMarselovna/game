@@ -137,7 +137,9 @@ textarea {
     border: 1px solid #fff;
     padding: 45px;
 }
-
+.mark.clicked{
+    border: 1px solid blue;
+}
 .mark,
 .category {
     font-size: 25px;
@@ -145,12 +147,16 @@ textarea {
 }
 
 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
     width: calc(100% / 5);
     background: blue;
     text-align: center;
     box-shadow: 3px -3px 100px 16px rgba(0, 71, 125, 0.2) inset;
     border: 1px solid #fff;
-    padding: 45px;
+   
 }
 
 .question_txt,
